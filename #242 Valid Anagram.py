@@ -1,6 +1,6 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        #242. Valid Anagram
+        #242. Valid Anagram (Easy)
         
         if len(s) != len(t):
             return False #as we no longer need to check whether it is an anagram
