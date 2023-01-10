@@ -1,5 +1,7 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
+        #217. Contains Duplicate (Easy)
+        
         hashset = set() #initialization of hashset
         #insert all traversed values in the hasshset
         #and then keep comparing the next value with the values already in the hashset
