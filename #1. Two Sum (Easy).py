@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # 1. Two Sum (Easy)
 
         prevmap = {} #hashmap following val : index entry
 
